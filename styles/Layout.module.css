@@ -1,0 +1,12 @@
+.container {
+    width: 90%;
+    margin-left: 10vw;
+    background: #FDFDFD;
+    transition: 1s;
+    transform-origin: left center;
+    color: #D2D2D0;
+}
+.container .content {
+    padding: 100px 20%;
+    height: 100vh;
+}

@@ -1,9 +1,6 @@
-html,
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    background: #3A3A42;
+    box-sizing: content-box;
 }
 
 a {
@@ -11,16 +8,14 @@ a {
   text-decoration: none;
 }
 
-* {
-  box-sizing: border-box;
+p {
+    line-height: 1.5em;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+h1 {
+    color: #bbb;
 }
+.Nav_menu__wVkA8:hover ~ .Layout_container__S4aNf {
+    transform: perspective(80vw) rotateY(10deg) translateX(35vw) scaleY(1.2);
+}
+

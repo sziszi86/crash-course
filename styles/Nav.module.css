@@ -1,0 +1,40 @@
+.menu {
+    position: fixed;
+    height: 100vh;
+    background: #F9D401;
+    width: 10vw;
+    box-shadow: 1px 0 2px rgba(0, 0, 0, 0.2);
+    transition: 1s;
+}
+.menu:hover {
+    width: 40vw;
+}
+.menu:hover ~ .container {
+    transform: perspective(80vw) rotateY(10deg) translateX(35vw) scaleY(1.2);
+}
+
+.menu:hover .nav {
+    left: 20%;
+}
+.nav {
+    position: absolute;
+    margin-top: 50%;
+    left: -1000px;
+    transition: 0.5s;
+}
+.nav ul {
+    color: white;
+    text-transform: uppercase;
+    list-style-type: none;
+}
+.item {
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    line-height: 2em;
+    letter-spacing: 0.3em;
+}
+.nav li:hover {
+    color: #eee;
+}
